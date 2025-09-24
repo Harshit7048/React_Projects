@@ -34,14 +34,14 @@ export default function TicTacToe(){
 
             data[num]="o";
             setCount( count + 1)
-            console.log("this is even");
+             
         }
         else{
               e.target.innerHTML = ` <img src="${cross_img}" alt="" />`;
 
             data[num]="x";
             setCount( count + 1)
-            console.log("this is odd");
+            
         }
         checkWIn()
     }
