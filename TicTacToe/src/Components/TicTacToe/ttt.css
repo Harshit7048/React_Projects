@@ -1,0 +1,42 @@
+.ttc-main h1{ 
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.ttc-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 150px;
+    width: 30%;
+    background-color: rgb(91, 87, 95);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box img{
+    height: 80%;
+}
+.reset-btn{
+    height: 40px;
+    width: 200px;
+    background: rgb(142, 142, 242);
+    color: white;
+    border: none;border-radius: 10px;
+    cursor: pointer;
+}
+ 
